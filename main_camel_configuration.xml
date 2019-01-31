@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!-- @Autor ccobena/xulloa -->
+<CamelConfigurationData>
+	<initialDPRequest isCAPVersion3orLater="false">
+		<serviceKey value="2"/>
+<!-- 	<calledPartyNumber>
+			<isupCalledPartyNumber 
+				address="50400993402218"
+				natureOfAddresIndicator="0"
+				numberingPlanIndicator="1"
+				internalNetworkNumberIndicator="1"/> 
+		</calledPartyNumber>
+-->
+		<callingPartyNumber>
+			<isupCallingPartyNumber 
+				address= "593968582871" 
+				natureOfAddresIndicator="4"
+				numberingPlanIndicator="1" 
+				numberIncompleteIndicator="0"
+				addressRepresentationRestrictedIndicator="1" 
+				screeningIndicator="1"/>
+		</callingPartyNumber>
+		<callingPartysCategory>
+			<isupCallingPartysCategory callingPartyCategory="10"/>
+		</callingPartysCategory>
+<!--    <cgEncountered value="manualCGencountered"/>  -->
+		<ipsspCapabilities
+			ipRoutingAddressSupported="false"
+			voiceBackSupported="false"
+			generationOfVoiceAnnouncementsFromTextSupported="false"/>
+		<locationNumber>
+			<isupLocationNumber
+				address="59397995033"
+				natureOfAddresIndicator="4"
+				numberingPlanIndicator="1"
+				internalNetworkNumberIndicator="1"
+				addressRepresentationRestrictedIndicator="1"
+				screeningIndicator="3"/>
+		</locationNumber>
+<!-- 	<originalCalledPartyID>
+			<isupOriginalCalledNumber address="50400993402218" natureOfAddresIndicator="0"
+				numberingPlanIndicator="1" addressRepresentationRestrictedIndicator="1"/>
+		</originalCalledPartyID>
+ 		<extensions>
+			<extensionFieldList>
+				<extensionField localCode="2" criticalityType="typeIgnore">
+					<data value=""/>
+				</extensionField>
+				<extensionField localCode="3" criticalityType="typeAbort">
+					<data value="FF"/>
+				</extensionField>
+			</extensionFieldList>
+		</extensions>
+-->
+		<highLayerCompatibility>
+			<isupUserTeleserviceInformation
+				codingStandard="0"
+				interpretation="4"
+				presentationMethod="1"
+				highLayerCharIdentification="1"/>
+		</highLayerCompatibility>
+<!-- 		
+		<additionalCallingPartyNumber>
+			<genericNumber
+				address="50400993402218"
+				natureOfAddresIndicator="3"
+				numberingPlanIndicator="4"
+				numberIncomplete="true"
+				addressRepresentationRestrictedIndicator="0"
+				screeningIndicator="2"
+				numberQualifierIndicator="5"/>
+		</additionalCallingPartyNumber>
+ -->		
+		<bearerCapability>
+			<bearerCap>
+				<userServiceInformation
+					codingStandart="0"
+					informationTransferCapability="0"
+					transferMode="0"
+					informationTransferRate="16"
+					l1UserInformation="3"/>
+			</bearerCap>
+		</bearerCapability>
+	 	<eventTypeBCSM value="collectedInfo"/>
+<!-- 	<redirectingPartyID>
+			<isupRedirectingNumber address="7010900" natureOfAddresIndicator="3"
+				numberingPlanIndicator="1" addressRepresentationRestrictedIndicator="1"/>
+		</redirectingPartyID>
+		<redirectionInformation>
+			<isupRedirectionInformation redirectingIndicator="3" originalRedirectionReason="0"
+				redirectionCounter="1" redirectionReason="6"/>
+		</redirectionInformation>
+ -->
+		<imsi number="740010154212150"/>
+<!-- 	<subscriberState subscriberStateChoice="notProvidedFromVLR"/>  -->
+		<locationInformation>
+			<ageOfLocationInformation value="0"/>
+			<!-- NAI: unknown=0/international_number=1/national_significant_number=2/network_specific_number=3/subscriber_number=4/reserved=5/abbreviated_number=6/reserved_for_extension=7 -->
+			<!-- NPI: unknown = 0/ ISDN = 1/ spare_2 = 2/ data = 3/ telex = 4/ spare_5 = 5/ land_mobile = 6/ spare_7 = 7/ national = 8/ private_plan = 9/ reserved = 15 -->
+			<vlrNumber nai="international_number" npi="ISDN" number="59397999138" /> 
+			<cellGlobalIdOrServiceAreaIdOrLAI>
+				<cellGlobalIdOrServiceAreaIdFixedLength mcc ="740" mnc ="01" lac ="50166" cellId ="64875"/>
+				<!-- <laiFixedLength mcc ="740" mnc ="01" lac ="50166" />  -->
+			</cellGlobalIdOrServiceAreaIdOrLAI>
+		</locationInformation>
+		<extBasicServiceCode>
+			<extTeleservice teleserviceCodeValue="telephony"/> 
+		</extBasicServiceCode>
+		<callReferenceNumber>
+			<data value="13FA3D3DEA"/>
+		</callReferenceNumber>
+		<mscAddress number="59397999138" nai="international_number" npi="ISDN"/>
+		<calledPartyBCDNumber number="50400993402218" nai="unknown" npi="ISDN"/>
+<!-- 	<timeAndTimezone year="2005" month="11" day="24" hour="13" minute="10" second="56"
+			timeZone="0"/>
+		<callForwardingSSPending value="true"/>
+		<initialDPArgExtension isCAPVersion3orLater="false">
+			<gmscAddress number="2207750007" nai="international_number" npi="ISDN"/>
+		</initialDPArgExtension>
+ -->		
+	</initialDPRequest>
+	<applyChargingReportRequest>
+		<timeDurationChargingResult>
+			<partyToCharge>
+				<receivingSideID value="1"/>
+			</partyToCharge>
+                        <legActive value="true"/>
+		</timeDurationChargingResult>
+	</applyChargingReportRequest>
+</CamelConfigurationData>

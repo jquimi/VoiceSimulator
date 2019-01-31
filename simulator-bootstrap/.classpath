@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" output="target/classes" path="tools/simulator/bootstrap/src/main/java">
+		<attributes>
+			<attribute name="optional" value="true"/>
+			<attribute name="maven.pomderived" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.8">
+		<attributes>
+			<attribute name="maven.pomderived" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="con" path="org.eclipse.m2e.MAVEN2_CLASSPATH_CONTAINER">
+		<attributes>
+			<attribute name="maven.pomderived" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="/VoiceSimulatorEc/lib/asn-2.1.5.jar"/>
+	<classpathentry kind="lib" path="/VoiceSimulatorEc/lib/cap-api-7.4.1404.jar"/>
+	<classpathentry kind="lib" path="/VoiceSimulatorEc/lib/cap-impl-7.4.1404.jar"/>
+	<classpathentry kind="lib" path="/VoiceSimulatorEc/lib/commons-1.0.0.CR1.jar"/>
+	<classpathentry kind="lib" path="/VoiceSimulatorEc/lib/commons-email-1.3.2.jar"/>
+	<classpathentry kind="lib" path="/VoiceSimulatorEc/lib/congestion-7.4.1404.jar"/>
+	<classpathentry kind="lib" path="/VoiceSimulatorEc/lib/inap-api-7.4.1404.jar"/>
+	<classpathentry kind="lib" path="/VoiceSimulatorEc/lib/inap-impl-7.4.1404.jar"/>
+	<classpathentry kind="lib" path="/VoiceSimulatorEc/lib/isup-api-7.4.1404.jar"/>
+	<classpathentry kind="lib" path="/VoiceSimulatorEc/lib/isup-impl-7.4.1404.jar"/>
+	<classpathentry kind="lib" path="/VoiceSimulatorEc/lib/java-getopt-1.0.9.jar"/>
+	<classpathentry kind="lib" path="/VoiceSimulatorEc/lib/javolution-5.5.1.jar"/>
+	<classpathentry kind="lib" path="/VoiceSimulatorEc/lib/jmxtools-1.2.1.jar"/>
+	<classpathentry kind="lib" path="/VoiceSimulatorEc/lib/log4j-1.2.14.jar"/>
+	<classpathentry kind="lib" path="/VoiceSimulatorEc/lib/m3ua-api-7.4.1404.jar"/>
+	<classpathentry kind="lib" path="/VoiceSimulatorEc/lib/m3ua-impl-7.4.1404.jar"/>
+	<classpathentry kind="lib" path="/VoiceSimulatorEc/lib/map-api-7.4.1404.jar"/>
+	<classpathentry kind="lib" path="/VoiceSimulatorEc/lib/map-impl-7.4.1404.jar"/>
+	<classpathentry kind="lib" path="/VoiceSimulatorEc/lib/mtp-7.4.1404.jar"/>
+	<classpathentry kind="lib" path="/VoiceSimulatorEc/lib/mtp-api-7.4.1404.jar"/>
+	<classpathentry kind="lib" path="/VoiceSimulatorEc/lib/restcomm-dialogic-7.4.1404.jar"/>
+	<classpathentry kind="lib" path="/VoiceSimulatorEc/lib/sccp-api-7.4.1404.jar"/>
+	<classpathentry kind="lib" path="/VoiceSimulatorEc/lib/sccp-impl-7.4.1404.jar"/>
+	<classpathentry kind="lib" path="/VoiceSimulatorEc/lib/sctp-api-1.8.15.jar"/>
+	<classpathentry kind="lib" path="/VoiceSimulatorEc/lib/sctp-impl-1.8.15.jar"/>
+	<classpathentry kind="lib" path="/VoiceSimulatorEc/lib/statistics-api-7.4.1404.jar"/>
+	<classpathentry kind="lib" path="/VoiceSimulatorEc/lib/statistics-impl-7.4.1404.jar"/>
+	<classpathentry kind="lib" path="/VoiceSimulatorEc/lib/stream-1.0.0.CR1.jar"/>
+	<classpathentry kind="lib" path="/VoiceSimulatorEc/lib/tcap-api-7.4.1404.jar"/>
+	<classpathentry kind="lib" path="/VoiceSimulatorEc/lib/tcap-impl-7.4.1404.jar"/>
+	<classpathentry kind="lib" path="/VoiceSimulatorEc/lib/simulator-core-1.0.0.jar"/>
+	<classpathentry kind="src" output="target/test-classes" path="src/test/java">
+		<attributes>
+			<attribute name="optional" value="true"/>
+			<attribute name="maven.pomderived" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="output" path="target/classes"/>
+</classpath>

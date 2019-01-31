@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<configurationData>
+	<instance_L1 value="M3UA"/>
+	<instance_L2 value="SCCP"/>
+	<instance_L3 value="TCAP+CAP"/>
+	<instance_TestTask value="CAP_TEST_SSF"/>
+	<m3ua storePcapTrace="true" isSctpServer="true" localPort="3905" localPort2="0" remotePort="3908" remotePort2="0" ipChannelType="SCTP" dpc="9721" dpc2="0" opc="9559" opc2="0" si="-1" routingConext="1" networkAppearance="8" trafficModeType="2" m3uaFunctionality="SGW" m3uaExchangeType="SE" routingLabelFormat="ITU" m3uaIPSPType="SERVER">
+		<localHost value="10.1.13.1"/>
+		<localHost2 value=""/>
+		<remoteHost value="10.1.13.2"/>
+		<remoteHost2 value=""/>
+	</m3ua>
+	<sccp routeOnGtMode="false" remoteSpc="9721" localSpc="9559" ni="2" remoteSsn="146" localSsn="146" localSsn2="0" translationType="0">
+		<globalTitleType value="Translation type, numbering plan, encoding scheme and NOA ind"/>
+		<addressNature value="INTERNATIONAL"/>
+		<numberingPlan value="ISDN_TELEPHONY"/>
+		<sccpProtocolVersion value="ITU"/>
+		<callingPartyAddressDigits value=""/>
+	</sccp>
+	<cap>
+		<remoteAddressDigits value=""/>
+	</cap>
+	<testCapSsf>
+		<capApplicationContext value="CAP_V2_gsmSSF_to_gsmSCF 0.50.1"/>
+	</testCapSsf>
+</configurationData>
